@@ -178,7 +178,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                        <p className="text-gray-600">074 993 9240</p>
+                        <p className="text-gray-600">073 858 7821</p>
                       </div>
                     </div>
                   </CardContent>
@@ -230,8 +230,17 @@ const Contact = () => {
               Located in the heart of Sandton, we're easily accessible from anywhere in Johannesburg.
             </p>
           </div>
-          <div className="bg-gray-300 h-64 lg:h-96 rounded-lg flex items-center justify-center">
-            <span className="text-gray-600">Interactive Map - 1 Maxwell Drive, Sunninghill, Sandton</span>
+          <div className="rounded-lg overflow-hidden shadow-xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.0876441842197!2d28.055536!3d-26.041111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957315b1e3c6d3%3A0x7c5c5e5e5e5e5e5e!2s1%20Maxwell%20Dr%2C%20Sunninghill%2C%20Sandton%2C%202157!5e0!3m2!1sen!2sza!4v1234567890123"
+              width="100%"
+              height="384"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Hillman Property Office Location"
+            />
           </div>
         </div>
       </section>
