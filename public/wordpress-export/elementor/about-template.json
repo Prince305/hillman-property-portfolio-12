@@ -1,0 +1,363 @@
+{
+  "title": "Hillman Property - About",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#0F172A",
+        "background_color_b": "#1E3A5F",
+        "padding": { "unit": "px", "top": "120", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About Hillman Property",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#BFDBFE;font-size:18px;max-width:768px;margin:0 auto;\">Since 2016, we've been transforming visions into reality through exceptional construction and luxury property development in Johannesburg.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed",
+        "structure": "20"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Story",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563;font-size:18px;line-height:1.7;\">Founded in 2016 and headquartered in the heart of Sandton, Hillman Property has established itself as a premier construction and luxury property development company in Johannesburg.</p><p style=\"color:#4B5563;font-size:18px;line-height:1.7;\">Our journey began with a simple yet powerful vision: to create exceptional spaces that not only meet but exceed our clients' expectations. Today, we're proud to offer both world-class construction services and a curated portfolio of luxury rental properties.</p><p style=\"color:#4B5563;font-size:18px;line-height:1.7;\">Located at 1 Maxwell Drive, Sunninghill, Sandton, we're perfectly positioned to serve the greater Johannesburg area with our comprehensive range of services.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "" },
+                "image_size": "full",
+                "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8" },
+                "_element_custom_width": { "unit": "%", "size": 100 },
+                "height": { "unit": "px", "size": 384 }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F9FAFB",
+        "padding": { "unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Mission & Values",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#4B5563;font-size:18px;max-width:672px;margin:0 auto;\">\"Your Vision, Our Expertise\" - This motto drives everything we do at Hillman Property.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F9FAFB",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-star", "library": "fa-solid" },
+                "title_text": "Luxury",
+                "description_text": "We believe in creating spaces that embody elegance, sophistication, and premium quality in every detail.",
+                "position": "top",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" },
+                "title_text": "Precision",
+                "description_text": "Our meticulous attention to detail ensures every project meets the highest standards of craftsmanship.",
+                "position": "top",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-leaf", "library": "fa-solid" },
+                "title_text": "Sustainability",
+                "description_text": "We're committed to environmentally responsible construction practices and sustainable development.",
+                "position": "top",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-handshake", "library": "fa-solid" },
+                "title_text": "Client Collaboration",
+                "description_text": "We work closely with our clients to ensure their vision is realized through expert execution.",
+                "position": "top",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Expertise",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#4B5563;font-size:18px;max-width:672px;margin:0 auto;\">We specialize in two core areas that complement each other perfectly.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed",
+        "structure": "20"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Construction Services",
+                "header_size": "h3",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563;\">From luxury residential homes to commercial buildings, we deliver exceptional construction services with an emphasis on quality, craftsmanship, and client satisfaction.</p>"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "text": "Luxury Residential Construction", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Residential Renovations & Extensions", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Commercial Buildings", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Turnkey Design & Build", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } }
+                ],
+                "icon_color": "#22C55E"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Luxury Property Development",
+                "header_size": "h3",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563;\">Our portfolio of luxury rental properties represents the pinnacle of our construction expertise, offering premium living spaces in Johannesburg's most desirable locations.</p>"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "text": "Thoughtfully Designed Spaces", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Impeccable Finishes", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Prime Johannesburg Locations", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Professional Property Management", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } }
+                ],
+                "icon_color": "#22C55E"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

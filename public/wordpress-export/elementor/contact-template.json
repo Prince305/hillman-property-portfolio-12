@@ -1,0 +1,218 @@
+{
+  "title": "Hillman Property - Contact",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#0F172A",
+        "background_color_b": "#1E3A5F",
+        "padding": { "unit": "px", "top": "120", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact Hillman Property",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#BFDBFE;font-size:18px;max-width:768px;margin:0 auto;\">Ready to start your construction project or interested in our luxury rentals? Get in touch with our team today.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed",
+        "structure": "20"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send Us a Message",
+                "header_size": "h2",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563;\"><strong>Use Contact Form 7 or WPForms plugin here.</strong></p><p style=\"color:#4B5563;\">Create a form with fields: Full Name, Email Address, Phone Number, Subject, and Message. Use the CSS classes from the style.css file (.form-group, .form-label, .form-input, .form-textarea) for consistent styling.</p><p style=\"color:#6B7280;font-size:14px;\"><em>Recommended shortcode: [contact-form-7 id=\"xxx\" title=\"Contact Form\"]</em></p>"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get in Touch",
+                "header_size": "h2",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563;margin-bottom:32px;\">We're here to help with your construction needs and answer any questions about our luxury rental properties.</p>"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                "title_text": "Office Location",
+                "description_text": "1 Maxwell Drive, Sunninghill\nSandton, Johannesburg",
+                "position": "left",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-phone", "library": "fa-solid" },
+                "title_text": "Phone",
+                "description_text": "073 858 7821",
+                "position": "left",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-envelope", "library": "fa-solid" },
+                "title_text": "Email",
+                "description_text": "contact@hillmanproperty.com",
+                "position": "left",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-clock", "library": "fa-solid" },
+                "title_text": "Business Hours",
+                "description_text": "Monday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM\nSunday: Closed",
+                "position": "left",
+                "primary_color": "#FFFFFF",
+                "icon_background_color": "#1E3A8A",
+                "title_color": "#111827",
+                "description_color": "#4B5563"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F9FAFB",
+        "padding": { "unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0" },
+        "layout": "boxed"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Visit Our Office",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#111827",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#4B5563;font-size:18px;margin-bottom:32px;\">Located in the heart of Sandton, we're easily accessible from anywhere in Johannesburg.</p>"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "1 Maxwell Drive, Sunninghill, Sandton, Johannesburg, South Africa",
+                "zoom": { "unit": "px", "size": 15 },
+                "height": { "unit": "px", "size": 384 },
+                "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8" }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
