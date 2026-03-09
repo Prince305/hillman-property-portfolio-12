@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { CartDrawer } from "@/components/CartDrawer";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ const Header = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
+    { name: "Shop", href: "/shop" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -35,7 +37,6 @@ const Header = () => {
         <div className="flex justify-between items-center h-20 lg:h-24">
           <div className="flex items-center">
             <Link to="/" className="flex items-center group relative py-3">
-              {/* Clean logo container with subtle depth */}
               <div className="relative p-4 lg:p-5 transition-all duration-300 group-hover:scale-[1.02]">
                 <img
                   src="/lovable-uploads/448f349b-8d88-42ca-8ca1-42170191cdbc.png"
@@ -45,7 +46,6 @@ const Header = () => {
                     filter: 'drop-shadow(0 2px 8px rgba(13, 26, 59, 0.08)) drop-shadow(0 1px 3px rgba(13, 26, 59, 0.06))',
                   }}
                 />
-                {/* Subtle hover effect */}
                 <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
                      style={{ 
                        background: 'linear-gradient(135deg, rgba(13, 26, 59, 0.02) 0%, rgba(13, 26, 59, 0.04) 100%)',
@@ -75,13 +75,15 @@ const Header = () => {
             ))}
           </nav>
 
-          <div className="hidden md:flex">
+          <div className="hidden md:flex items-center gap-3">
+            <CartDrawer />
             <Button asChild className="btn-luxury-primary font-montserrat font-medium">
               <Link to="/contact">Get Quote</Link>
             </Button>
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <CartDrawer />
             <Button
               variant="ghost"
               size="icon"
