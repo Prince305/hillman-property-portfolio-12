@@ -143,6 +143,9 @@ const Shop = () => {
                         </h3>
                       </Link>
                       <p className="text-xs text-muted-foreground line-clamp-2">{product.node.description}</p>
+                      <p className="text-[10px] uppercase tracking-wider font-semibold text-luxury-gold">
+                        Designed & Installed by our Construction Team
+                      </p>
                       <div className="flex items-center justify-between pt-2">
                         <span className="text-lg font-bold text-luxury-navy">
                           {price.currencyCode} {parseFloat(price.amount).toFixed(2)}
