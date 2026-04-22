@@ -70,11 +70,12 @@ const Shop = () => {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-luxury-navy via-luxury-navy-light to-luxury-navy pt-32 pb-16">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block text-xs font-bold tracking-widest text-luxury-gold uppercase mb-4">Hillman Property · Product Gallery</span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 letter-spacing-luxury">
-            Shop <span className="text-luxury-gold">Furniture & Fittings</span>
+            Workshop-Direct <span className="text-luxury-gold">Cabinetry</span>
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-            Premium bedroom, living room, dining room furniture, kitchens, built-ins, bathrooms & doors — curated by Hillman Property.
+            Precision-crafted TV units, pedestals, kitchens, built-ins, bathrooms and doors — designed and installed by our own construction team.
           </p>
         </div>
       </section>
@@ -142,6 +143,9 @@ const Shop = () => {
                         </h3>
                       </Link>
                       <p className="text-xs text-muted-foreground line-clamp-2">{product.node.description}</p>
+                      <p className="text-[10px] uppercase tracking-wider font-semibold text-luxury-gold">
+                        Designed & Installed by our Construction Team
+                      </p>
                       <div className="flex items-center justify-between pt-2">
                         <span className="text-lg font-bold text-luxury-navy">
                           {price.currencyCode} {parseFloat(price.amount).toFixed(2)}

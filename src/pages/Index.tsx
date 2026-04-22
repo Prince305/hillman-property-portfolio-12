@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { ArrowRight, MapPin, Star, Award, Users, Building2 } from "lucide-react";
+import { ArrowRight, MapPin, Star, Award, Users, Building2, Hammer, Wrench, Tv, Archive, ChefHat, Ruler } from "lucide-react";
 
 const Index = () => {
   return (
@@ -17,21 +17,21 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 lg:pt-40 lg:pb-32">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white animate-fade-in-up text-shadow letter-spacing-luxury">
-              Crafting Iconic Properties
-              <span className="block text-luxury-gold">& Spaces</span>
+              Mastering Construction.
+              <span className="block text-luxury-gold">Perfecting Cabinetry.</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-4xl mx-auto leading-relaxed animate-fade-in-up-delay">
-              Your Vision, Our Expertise. Luxury construction and premium rental properties in Johannesburg since 2016.
+              Premium renovations and workshop-direct luxury furniture. Specializing in custom TV units, pedestals, and full kitchen transformations in Johannesburg since 2016.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay">
               <Button asChild className="btn-luxury-primary text-lg py-4 px-8">
-                <Link to="/portfolio">
-                  View Our Projects & Properties
+                <Link to="/shop">
+                  Browse Our Furniture
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button asChild className="btn-luxury-outline text-lg py-4 px-8 border-white text-white hover:bg-white hover:text-luxury-navy">
-                <Link to="/contact">Start Your Construction Project</Link>
+                <Link to="/contact">Start a Renovation</Link>
               </Button>
             </div>
           </div>
@@ -79,49 +79,101 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-luxury-navy mb-6 letter-spacing-luxury">
-              Why Choose Hillman Property?
+              Build & Furnish — Under One Roof
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Since 2016, we've been delivering exceptional results across luxury construction and premium property development in Johannesburg.
+              From structural renovations to precision-crafted cabinetry, Hillman Property delivers a unified service — designed, built and installed by our own team.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="card-luxury group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-luxury-navy to-luxury-navy-light rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Star className="h-8 w-8 text-white" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Group A — Bespoke Furniture */}
+            <div className="rounded-3xl bg-white border-2 border-luxury-gold/30 p-8 shadow-xl">
+              <div className="flex items-center gap-3 mb-6">
+                <span className="text-xs font-bold tracking-widest text-luxury-gold uppercase">Group A</span>
+                <span className="h-px flex-1 bg-luxury-gold/30"></span>
+              </div>
+              <h3 className="text-3xl font-bold text-luxury-navy mb-3">Bespoke Furniture</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                Factory-direct, precision-crafted cabinetry with a luxury finish — built in our workshop and installed by our team.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-luxury-navy flex items-center justify-center flex-shrink-0">
+                    <Tv className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-luxury-navy">Custom TV Units</h4>
+                    <p className="text-sm text-gray-600">Wall-to-wall entertainment cabinetry, precision-engineered.</p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold text-luxury-navy mb-4">Luxury & Precision</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Every project reflects our commitment to premium finishes and meticulous attention to detail.
-                </p>
-              </CardContent>
-            </Card>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-luxury-navy flex items-center justify-center flex-shrink-0">
+                    <Archive className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-luxury-navy">Pedestals & Built-ins</h4>
+                    <p className="text-sm text-gray-600">Bedroom pedestals and storage units with luxury finishes.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-luxury-navy flex items-center justify-center flex-shrink-0">
+                    <ChefHat className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-luxury-navy">Full Kitchens</h4>
+                    <p className="text-sm text-gray-600">Complete kitchen transformations, workshop-direct pricing.</p>
+                  </div>
+                </div>
+              </div>
+              <Button asChild className="btn-luxury-primary mt-8 w-full">
+                <Link to="/shop">Browse Our Furniture <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              </Button>
+            </div>
 
-            <Card className="card-luxury group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-luxury-navy to-luxury-navy-light rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <MapPin className="h-8 w-8 text-white" />
+            {/* Group B — Construction */}
+            <div className="rounded-3xl bg-luxury-navy text-white p-8 shadow-xl">
+              <div className="flex items-center gap-3 mb-6">
+                <span className="text-xs font-bold tracking-widest text-luxury-gold uppercase">Group B</span>
+                <span className="h-px flex-1 bg-luxury-gold/30"></span>
+              </div>
+              <h3 className="text-3xl font-bold mb-3">Construction</h3>
+              <p className="text-gray-200 mb-8 leading-relaxed">
+                Renovations, structural work and ongoing property maintenance — delivered with the same precision as our cabinetry.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                    <Hammer className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Renovations</h4>
+                    <p className="text-sm text-gray-300">Premium home and commercial renovations across Johannesburg.</p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold text-luxury-navy mb-4">Johannesburg Expertise</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Deep local knowledge and established relationships throughout the Johannesburg property market.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="card-luxury group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-luxury-navy to-luxury-navy-light rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <ArrowRight className="h-8 w-8 text-white" />
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                    <Wrench className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Property Maintenance</h4>
+                    <p className="text-sm text-gray-300">Reliable upkeep for residential and commercial properties.</p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold text-luxury-navy mb-4">Proven Track Record</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  From luxury homes to commercial buildings, our portfolio showcases excellence across all project types.
-                </p>
-              </CardContent>
-            </Card>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                    <Ruler className="h-6 w-6 text-luxury-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Structural Work</h4>
+                    <p className="text-sm text-gray-300">Extensions, alterations and bespoke structural builds.</p>
+                  </div>
+                </div>
+              </div>
+              <Button asChild className="mt-8 w-full bg-luxury-gold text-luxury-navy hover:bg-luxury-gold/90 font-semibold">
+                <Link to="/contact">Start a Renovation <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -132,31 +184,31 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <h2 className="text-4xl md:text-5xl font-bold text-luxury-navy mb-6 letter-spacing-luxury">
-                Our Construction Portfolio
+                Designed, Built & Installed — In-House
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                From luxury residential homes to commercial buildings, explore our completed projects that showcase our commitment to excellence and innovation.
+                Every cabinet, kitchen and built-in is engineered in our workshop and installed by the same construction team that renovates your space — no third parties, no compromises.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Luxury Residential Developments</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Custom TV Units & Entertainment Cabinetry</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Commercial Buildings & Fit-Outs</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Bedroom Pedestals & Storage Built-ins</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Premium Renovations & Extensions</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Full Kitchen Transformations</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Luxury Rental Properties</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Renovations & Structural Work</span>
                 </li>
               </ul>
               <Button asChild className="btn-luxury-primary text-lg py-4 px-8">
-                <Link to="/portfolio">View Complete Portfolio</Link>
+                <Link to="/shop">View Our Product Gallery</Link>
               </Button>
             </div>
             <div className="relative group">
