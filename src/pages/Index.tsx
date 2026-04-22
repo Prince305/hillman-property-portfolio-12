@@ -17,21 +17,21 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 lg:pt-40 lg:pb-32">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white animate-fade-in-up text-shadow letter-spacing-luxury">
-              Crafting Iconic Properties
-              <span className="block text-luxury-gold">& Spaces</span>
+              Mastering Construction.
+              <span className="block text-luxury-gold">Perfecting Cabinetry.</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-4xl mx-auto leading-relaxed animate-fade-in-up-delay">
-              Your Vision, Our Expertise. Luxury construction and premium rental properties in Johannesburg since 2016.
+              Premium renovations and workshop-direct luxury furniture. Specializing in custom TV units, pedestals, and full kitchen transformations in Johannesburg since 2016.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay">
               <Button asChild className="btn-luxury-primary text-lg py-4 px-8">
-                <Link to="/portfolio">
-                  View Our Projects & Properties
+                <Link to="/shop">
+                  Browse Our Furniture
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button asChild className="btn-luxury-outline text-lg py-4 px-8 border-white text-white hover:bg-white hover:text-luxury-navy">
-                <Link to="/contact">Start Your Construction Project</Link>
+                <Link to="/contact">Start a Renovation</Link>
               </Button>
             </div>
           </div>
