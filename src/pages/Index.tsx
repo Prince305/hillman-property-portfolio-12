@@ -184,31 +184,31 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <h2 className="text-4xl md:text-5xl font-bold text-luxury-navy mb-6 letter-spacing-luxury">
-                Our Construction Portfolio
+                Designed, Built & Installed — In-House
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                From luxury residential homes to commercial buildings, explore our completed projects that showcase our commitment to excellence and innovation.
+                Every cabinet, kitchen and built-in is engineered in our workshop and installed by the same construction team that renovates your space — no third parties, no compromises.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Luxury Residential Developments</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Custom TV Units & Entertainment Cabinetry</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Commercial Buildings & Fit-Outs</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Bedroom Pedestals & Storage Built-ins</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Premium Renovations & Extensions</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Full Kitchen Transformations</span>
                 </li>
                 <li className="flex items-center group">
                   <div className="w-2 h-2 bg-luxury-navy rounded-full mr-4 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Luxury Rental Properties</span>
+                  <span className="text-lg text-gray-700 group-hover:text-luxury-navy transition-colors duration-300">Renovations & Structural Work</span>
                 </li>
               </ul>
               <Button asChild className="btn-luxury-primary text-lg py-4 px-8">
-                <Link to="/portfolio">View Complete Portfolio</Link>
+                <Link to="/shop">View Our Product Gallery</Link>
               </Button>
             </div>
             <div className="relative group">
